@@ -4,8 +4,9 @@ import close from './close.svg'
 import menu from './menu.svg'
 import downloadArrow from './download.svg'
 import farmer from './farmer.png'
+import newLogo from './FarmLeaf-logos_green.png'
 
 export {
-    farmleafLogo, farmForest, close, menu, downloadArrow, farmer
+    farmleafLogo, farmForest, close, menu, downloadArrow, farmer, newLogo
 }
 
