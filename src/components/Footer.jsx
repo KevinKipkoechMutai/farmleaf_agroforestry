@@ -4,8 +4,10 @@ import { newLogo } from '../assets'
 const Footer = () => {
   return (
     <footer className="flex flex-col bg-slate-200 w-full justify-center items-center py-6">
-      <div className="flex flex-col sm:flex-row flex-wrap items-center justify-between gap-3 w-[80%] m-auto">
-        <img src={newLogo} alt='logo' className='sm:w-[130px] w-[12rem] sm:h-[60%] h-[100%]'/>
+      <div className="flex flex-col sm:flex-row flex-wrap sm:items-center items-start justify-between gap-3 w-[80%] m-auto">
+        <div className='m-0 p-0 md:block hidden'>
+          <img src={newLogo} alt='logo' className='w-[9.5rem] h-[100%]'/>
+        </div>
         <div className='flex flex-col justify-between items-start gap-3'>
           <h3 className='font-poppins font-semibold text-3xl mt-0'>Solutions</h3>
           <p className=' py-2 text-left'>Farm Analytics</p>
