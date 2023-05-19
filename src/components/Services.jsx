@@ -2,7 +2,7 @@ import { services} from '../assets'
 
 const Services = () => {
   return (
-    <div className='flex sm:flex-row flex-col-reverse items-center justify-between w-[80%] m-auto'>
+    <div id='services' className='flex sm:flex-row flex-col-reverse items-center justify-between w-[80%] m-auto'>
         <div className='flex justify-center items-center overflow-hidden w-fit h-fit p-0 rounded-3xl sm:my-1 my-3'>
             <img src={services} alt='services' className='max-w-[100%] max-h-[100%]'/>
         </div>
