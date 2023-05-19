@@ -4,7 +4,8 @@ import Benefits from './Benefits'
 import Finance from './Finance'
 import Contact from './Contact'
 import Footer from './Footer'
+import Services from './Services'
 
 export {
-    Navbar, Home, Benefits, Finance, Contact, Footer
+    Navbar, Home, Benefits, Finance, Contact, Footer, Services
 }

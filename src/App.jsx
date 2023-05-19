@@ -1,4 +1,4 @@
-import { Navbar, Home, Benefits, Finance, Footer, Contact } from './components'
+import { Navbar, Home, Benefits, Finance, Services, Footer, Contact } from './components'
 import { ToastProvider } from 'react-toast-notifications'
  
 
@@ -12,6 +12,7 @@ function App() {
           <Navbar /> 
           <Home />
           <Benefits />
+          <Services />
           <Finance />
           <Contact />
           <Footer />

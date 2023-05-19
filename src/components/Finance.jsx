@@ -23,7 +23,9 @@ const Finance = () => {
         </p>
         <button onClick={handleBtnClick} className="px-4 py-2 rounded bg-blue-800 h-[60px] hover:bg-blue-600 text-white font-bold transition duration-300 ease-in-out cursor-pointer">Learn More</button>
       </div>
-      <img src={farmer} alt="finance" className="max-w-[30rem] max-h-[25rem] px-2 py-3"/>
+      <div className="flex justify-center items-center overflow-hidden w-fit h-fit p-0 rounded-3xl sm:my-1 my-3">
+        <img src={farmer} alt="finance" className="max-w-[100%] max-h-[100%]"/>
+      </div>
     </div>
   )
 }
