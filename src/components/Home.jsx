@@ -29,7 +29,7 @@ const Home = () => {
 
   return (
     <section id='home' className='flex md:flex-row flex-col px-6 gap-10 w-[93%] m-auto justify-between items-start'>
-      <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-0 px-6`}>
+      <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-0 px-6 mb-2`}>
       <div className='flex flex-col sm:flex-row justify-between sm:items-center items-start w-full top-0 ml-0'>
         <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>
           Welcome to <br className='sm:block hidden'/> {" "}
