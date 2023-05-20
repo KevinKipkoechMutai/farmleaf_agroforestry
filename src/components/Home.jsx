@@ -51,6 +51,7 @@ const Home = () => {
             placeholder="Your email"
             className="w-full sm:w-auto min-h-[60px] px-4 py-2 mb-4 sm:mb-0 sm:mr-4 rounded-l-lg border border-gray-300 focus:border-blue-500 focus:outline-none text-black cursor-pointer"
             value={email}
+            required
             onChange={(e) => setEmail(e.target.value)}
           />
           <button
