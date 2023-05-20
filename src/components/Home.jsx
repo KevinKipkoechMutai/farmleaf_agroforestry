@@ -24,6 +24,7 @@ const Home = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     addToast('Thanks for enrolling! We will contact you soon.', { appearance: "info", autoDismiss: true })
+    setEmail("")
   }
 
 
