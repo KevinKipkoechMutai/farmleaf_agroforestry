@@ -27,7 +27,7 @@ export const advantages = [
     {
         id: 'advantage-1',
         image: carbon,
-        statement: 'Agroforestry sequesters 2-8 tons of carbon per year while pure cropland emits up to 120 tons of carbon per hectare',
+        statement: 'Agroforestry sequesters 2-8 tons of carbon per year while pure cropland emits up to 120 tons of carbon per hectare.',
     },
     {
         id: 'advantage-2',
