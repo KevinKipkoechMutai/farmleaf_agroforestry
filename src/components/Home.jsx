@@ -17,13 +17,12 @@ const Home = () => {
       link.target = "_blank"
       link.download - fileName
       link.click()
-
       addToast('Thanks for downloading our brochure!', { appearance: "success", autoDismiss: true })
   }
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    addToast('Thanks for enrolling! We will contact you soon.', { appearance: "info", autoDismiss: true })
+    addToast('Thanks for your interest! We will contact you soon.', { appearance: "info", autoDismiss: true })
     setInterval(() => {
       setEmail("")
     }, 1500)
