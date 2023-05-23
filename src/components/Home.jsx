@@ -23,9 +23,7 @@ const Home = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     addToast('Thanks for your interest! We will contact you soon.', { appearance: "info", autoDismiss: true })
-    setInterval(() => {
-      setEmail("")
-    }, 1500)
+    setEmail("")
   }
 
 
